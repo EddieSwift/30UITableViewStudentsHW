@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "EGBStudent.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITableViewDataSource>
+
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
 
 
 @end
