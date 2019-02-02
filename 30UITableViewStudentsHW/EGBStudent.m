@@ -10,4 +10,9 @@
 
 @implementation EGBStudent
 
+- (NSString *)description {
+    
+    return [NSString stringWithFormat: @"Student: Name: %@ Surname: %@ Grade: %ld", self.name, self.surname, (long)self.averageGrade];
+}
+
 @end
